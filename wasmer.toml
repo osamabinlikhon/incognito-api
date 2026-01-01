@@ -1,0 +1,18 @@
+[package]
+name = "osamabinlikhon/smollm2-api"
+version = "0.8.0"
+description = "SmolLM2-135M-Instruct API with OpenAI and Anthropic compatibility using llama-cpp-python GGUF"
+
+[[module]]
+name = "main"
+source = "src/main.py"
+engine = "python"
+
+[[command]]
+name = "server"
+module = "main"
+runner = "wasmer.io"
+package = "osamabinlikhon/smollm2-api"
+
+[app]
+entrypoint = "main:app"

@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: smollm2-api
+    env: python
+    buildCommand: uv pip install -r requirements.txt
+    startCommand: python src/main.py
+    envVars:
+      - key: MODEL_PATH
+        value: model/SmolLM2-135M-Instruct-Q4_K_M.gguf
+      - key: PORT
+        value: 10000
+    plan: starter

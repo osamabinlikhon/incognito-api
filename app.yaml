@@ -1,0 +1,9 @@
+name: smollm2-api
+app_id: da_K53IxtPUjgvb
+owner: osamabinlikhon
+package: .
+scaling:
+  mode: single_concurrency
+kind: wasmer.io/App.v0
+description: SmolLM2-360M-Instruct API (GGUF quantized) with OpenAI and Anthropic compatibility deployed on Wasmer Edge
+public: true
