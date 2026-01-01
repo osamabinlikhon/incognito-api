@@ -2,6 +2,12 @@
 
 ## ✅ Status: FULLY DEPLOYED & TESTED
 
+## 📦 GitHub Repository
+
+**Repository**: [osamabinlikhon/incognito-api](https://github.com/osamabinlikhon/incognito-api)
+
+All code, scripts, and documentation are available on GitHub.
+
 ---
 
 ## 📋 Quick Start (5 Minutes)
